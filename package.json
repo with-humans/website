@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve"
+    "build:site": "eleventy",
+    "build:css": "mkdir css || true; sass -s compressed -I . -I scss scss/theme.scss css/theme.min.css",
+    "build": "run-s build:css build:site",
+    "start:site": "eleventy --serve",
+    "start:css": "mkdir css || true; sass -s compressed --watch -I . -I scss scss/theme.scss css/theme.min.css",
+    "start": "run-p 'start:*'"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,8 @@
   },
   "homepage": "https://github.com/with-humans/website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.8.3",
+    "bootstrap": "^4.3.1",
+    "sass": "^1.22.3"
   }
 }
