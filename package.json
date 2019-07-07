@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/with-humans/website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.7.1"
+    "@11ty/eleventy": "^0.8.3"
   }
 }
