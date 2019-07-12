@@ -1,29 +1,14 @@
 {
-  "name": "@with-humans/website",
+  "name": "whumans",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "build:site": "eleventy",
-    "build:css": "mkdir css || true; sass -s compressed -I . -I scss scss/theme.scss css/theme.min.css",
-    "build": "run-s build:css build:site",
-    "start:site": "eleventy --serve",
-    "start:css": "mkdir css || true; sass -s compressed --watch -I . -I scss scss/theme.scss css/theme.min.css",
-    "start": "run-p 'start:*'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/with-humans/website.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/with-humans/website/issues"
-  },
-  "homepage": "https://github.com/with-humans/website#readme",
+  "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
-    "bootstrap": "^4.3.1",
-    "npm-run-all": "^4.1.5",
-    "sass": "^1.22.3"
+    "bootstrap": "^4.3.1"
   }
 }
