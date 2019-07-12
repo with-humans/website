@@ -1,0 +1,16 @@
+h1.leader em {
+  position: relative;
+  &:hover:after {
+    border-color: darken(map-get($theme-colors, "light"), 20%);
+  }
+  &:after {
+    transition: border-color 500ms;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: -8%;
+    border: 3px solid map-get($theme-colors, "light");
+    width: 114%;
+  }
+}
