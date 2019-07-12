@@ -1,0 +1,41 @@
+---
+layout: lead
+leader: "BUILD with humans"
+---
+            <div class="row justify-content-center py-4 py-lg-5">
+                <div class="col-md-4 inset"><code style="height: 250px; overflow-y: hidden; display: block; font-size: 0.3em" id="build-log"></code></div>
+                <div class="col-md-8">
+                    with us, you ship features hourly, not weekly
+                    <button class="cta-button">DevOps</button>
+                </div>
+            </div>
+            <div class="row justify-content-center py-4 py-lg-5">
+                <div class="col-md-8">
+                    with us, you deploy every day, even on Fridays, not because you're adventourous, but because we're confident in what we ship
+                    <button class="cta-button">Test Automation</button>
+                </div>
+                <div class="col-md-4 inset"><video autoplay loop src="/img/tgif.mp4"></video></div>
+            </div>
+            <div class="row justify-content-center py-4 py-lg-5">
+                <div class="col-md-4 inset"><code>Skateboard Animation</code></div>
+                <div class="col-md-8">
+                    With us, tech becomes an enabler for innovation, not the bottleneck of your Product Engineering
+                    <button class="cta-button">Product Management</button>
+                </div>
+            </div>
+<script async>
+  {% capture log %}{% include build_report.log %}{% endcapture %}
+  const lines = {{ log | jsonify }}.split("\n");
+
+  document.addEventListener("DOMContentLoaded", function(event) {
+    const logElem = document.querySelector("#build-log");
+    const nextLine = function() {
+      const line = lines.shift();
+      if(typeof line === 'undefined') return;
+      logElem.innerText += "\n"+line;
+      logElem.scrollTop = logElem.scrollHeight;
+      setTimeout(nextLine, 100*Math.random());
+    }
+    nextLine();
+  });
+</script>

@@ -1,0 +1,347 @@
+9:38:22 PM: Build ready to start
+9:38:24 PM: build-image version: 8e315e54bc4032a32e73290be556cde4f8348c12
+9:38:24 PM: build-image tag: v2.8.2
+9:38:24 PM: buildbot version: b925d11411cabfe7b120501027bd0e96dbc28dde
+9:38:24 PM: Fetching cached dependencies
+9:38:24 PM: Starting to download cache of 225.2MB
+9:38:25 PM: Finished downloading cache in 794.8542ms
+9:38:25 PM: Starting to extract cache
+9:38:32 PM: Finished extracting cache in 7.333988229s
+9:38:32 PM: Finished fetching cache in 8.197678528s
+9:38:32 PM: Starting to prepare the repo for build
+9:38:32 PM: Preparing Git Reference refs/heads/trunk
+9:38:33 PM: Found netlify.toml. Overriding site configuration
+9:38:33 PM: Different publish path detected, going to use the one specified in the toml file: '_site' versus '/' in the site
+9:38:33 PM: Different build command detected, going to use the one specified in the toml file: 'DEBUG=* npm run build' versus '' in the site
+9:38:33 PM: Starting build script
+9:38:33 PM: Installing dependencies
+9:38:34 PM: Started restoring cached node version
+9:38:36 PM: Finished restoring cached node version
+9:38:37 PM: v8.16.0 is already installed.
+9:38:38 PM: Now using node v8.16.0 (npm v6.4.1)
+9:38:38 PM: Attempting ruby version 2.3.6, read from environment
+9:38:40 PM: Using ruby version 2.3.6
+9:38:40 PM: Using PHP version 5.6
+9:38:40 PM: Started restoring cached node modules
+9:38:40 PM: Finished restoring cached node modules
+9:38:40 PM: Installing NPM modules using NPM version 6.4.1
+9:38:47 PM: npm
+9:38:47 PM: WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+9:38:47 PM: npm
+9:38:47 PM: WARN notsup
+9:38:47 PM:  SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+9:38:47 PM: added 35 packages from 21 contributors and audited 11419 packages in 5.686s
+9:38:47 PM: found 0 vulnerabilities
+9:38:47 PM: NPM modules installed
+9:38:47 PM: Started restoring cached go cache
+9:38:48 PM: Finished restoring cached go cache
+9:38:48 PM: Installing Go version 1.10
+9:38:48 PM: unset GOOS;
+9:38:48 PM: unset GOARCH;
+9:38:48 PM: export GOROOT='/opt/buildhome/.gimme_cache/versions/go1.10.linux.amd64';
+9:38:48 PM: export PATH="/opt/buildhome/.gimme_cache/versions/go1.10.linux.amd64/bin:${PATH}";
+9:38:48 PM: go version >&2;
+9:38:48 PM: export GIMME_ENV='/opt/buildhome/.gimme_cache/env/go1.10.linux.amd64.env';
+9:38:48 PM: go version go1.10 linux/amd64
+9:38:48 PM: Installing missing commands
+9:38:48 PM: Verify run directory
+9:38:48 PM: Executing user command: DEBUG=* npm run build
+9:38:49 PM: > @with-humans/website@1.0.0 build /opt/build/repo
+9:38:49 PM: > run-s build:css build:site
+9:38:49 PM: > @with-humans/website@1.0.0 build:css /opt/build/repo
+9:38:49 PM: > mkdir css || true; sass -s compressed -I . -I scss scss/theme.scss css/theme.min.css
+9:38:53 PM: > @with-humans/website@1.0.0 build:site /opt/build/repo
+9:38:53 PM: > eleventy
+9:38:54 PM: 2019-07-07T19:38:54.222Z Eleventy:UserConfig Resetting EleventyConfig to initial values.
+9:38:54 PM: 2019-07-07T19:38:54.224Z Eleventy:Config Setting up global TemplateConfig.
+9:38:54 PM: 2019-07-07T19:38:54.229Z Eleventy:UserConfig Adding universal filter 'slug'
+9:38:54 PM: 2019-07-07T19:38:54.229Z Eleventy:UserConfig Adding universal filter 'url'
+9:38:54 PM: 2019-07-07T19:38:54.230Z Eleventy:TemplateConfig rootConfig { templateFormats: [ 'liquid', 'ejs', 'md', 'hbs', 'mustache', 'haml', 'pug', 'njk', 'html', 'jstl', '11ty.js' ], pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'liquid', dataTemplateEngine: 'liquid', passthroughFileCopy: true, htmlOutputSuffix: '-o', jsDataFileSuffix: '.11tydata', keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, filters: {}, handlebarsHelpers: {}, nunjucksFilters: {} }
+9:38:54 PM: 2019-07-07T19:38:54.231Z Eleventy:TemplateConfig Merging config with /opt/build/repo/.eleventy.js
+9:38:54 PM: 2019-07-07T19:38:54.234Z Eleventy:TemplateConfig localConfig: { templateFormats: undefined, filters: {}, linters: {}, layoutAliases: {}, passthroughCopies: { css: true, 'favicons/.': true, img: true, js: true }, liquidOptions: {}, liquidTags: {}, liquidFilters: { slug: [Function], url: [Function] }, liquidShortcodes: {}, liquidPairedShortcodes: {}, nunjucksFilters: { slug: [Function], url: [Function] }, nunjucksAsyncFilters: {}, nunjucksTags: {}, nunjucksShortcodes: {}, nunjucksPairedShortcodes: {}, handlebarsHelpers: { slug: [Function], url: [Function] }, handlebarsShortcodes: {}, handlebarsPairedShortcodes: {}, javascriptFunctions: { slug: [Function], url: [Function] }, pugOptions: {}, ejsOptions: {}, markdownHighlighter: null, libraryOverrides: {}, dynamicPermalinks: true, useGitIgnore: true, dataDeepMerge: false, experiments: Set {}, watchJavaScriptDependencies: true, browserSyncConfig: {} }
+9:38:54 PM: 2019-07-07T19:38:54.234Z Eleventy:TemplateConfig overrides: {}
+9:38:54 PM: 2019-07-07T19:38:54.235Z Eleventy:TemplateConfig Current configuration: { templateFormats: [ 'liquid', 'ejs', 'md', 'hbs', 'mustache', 'haml', 'pug', 'njk', 'html', 'jstl', '11ty.js' ], pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'liquid', dataTemplateEngine: 'liquid', passthroughFileCopy: true, htmlOutputSuffix: '-o', jsDataFileSuffix: '.11tydata', keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, filters: {}, handlebarsHelpers: { slug: [Function], url: [Function] }, nunjucksFilters: { slug: [Function], url: [Function] }, linters: {}, layoutAliases: {}, passthroughCopies: { css: true, 'favicons/.': true, img: true, js: true }, liquidOptions: {}, liquidTags: {}, liquidFilters: { slug: [Function], url: [Function] }, liquidShortcodes: {}, liquidPairedShortcodes: {}, nunjucksAsyncFilters: {}, nunjucksTags: {}, nunjucksShortcodes: {}, nunjucksPairedShortcodes: {}, handlebarsShortcodes: {}, handlebarsPairedShortcodes: {}, javascriptFunctions: { slug: [Function], url: [Function] }, pugOptions: {}, ejsOptions: {}, markdownHighlighter: null, libraryOverrides: {}, dynamicPermalinks: true, useGitIgnore: true, dataDeepMerge: false, experiments: Set {}, watchJavaScriptDependencies: true, browserSyncConfig: {} }
+9:38:54 PM: 2019-07-07T19:38:54.336Z Eleventy:CommandCheck command: eleventy
+9:38:54 PM: 2019-07-07T19:38:54.339Z Eleventy:TemplatePassthroughManager Resetting counts to 0
+9:38:54 PM: 2019-07-07T19:38:54.341Z Eleventy:EleventyFiles /opt/build/repo/.gitignore,.gitignore ignoring: !./node_modules/**
+9:38:54 PM: 2019-07-07T19:38:54.341Z Eleventy:EleventyFiles /opt/build/repo/.gitignore,.gitignore ignoring: !./_site
+9:38:54 PM: 2019-07-07T19:38:54.341Z Eleventy:EleventyFiles /opt/build/repo/.gitignore,.gitignore ignoring: !./css/**
+9:38:54 PM: 2019-07-07T19:38:54.341Z Eleventy:EleventyFiles /opt/build/repo/.gitignore,.gitignore ignoring: !./node_modules/**
+9:38:54 PM: 2019-07-07T19:38:54.341Z Eleventy:EleventyFiles /opt/build/repo/.gitignore,.gitignore ignoring: !./_site
+9:38:54 PM: 2019-07-07T19:38:54.341Z Eleventy:EleventyFiles /opt/build/repo/.gitignore,.gitignore ignoring: !./css/**
+9:38:54 PM: 2019-07-07T19:38:54.342Z Eleventy Directories:
+9:38:54 PM: Input: .
+9:38:54 PM: Data: _data
+9:38:54 PM: Includes: _includes
+9:38:54 PM: Output: _site
+9:38:54 PM: Template Formats: liquid,ejs,md,hbs,mustache,haml,pug,njk,html,jstl,11ty.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: 2019-07-07T19:38:54.361Z Eleventy:EleventyFiles Searching for: [ './**/*.liquid', './**/*.ejs', './**/*.md', './**/*.hbs', './**/*.mustache', './**/*.haml', './**/*.pug', './**/*.njk', './**/*.html', './**/*.jstl', './**/*.11ty.js', '!./node_modules/**', '!./_site', '!./css/**', '!./node_modules/**', '!./_site', '!./css/**', '!./_site/**', '!./_includes/**', '!./_data/**' ]
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:compiler initializing /opt/build/repo/node_modules/snapdragon/lib/compiler.js
+9:38:54 PM: Sun, 07 Jul 2019 19:38:54 GMT snapdragon:parser initializing /opt/build/repo/node_modules/snapdragon/lib/parser.js
+9:38:54 PM: 2019-07-07T19:38:54.395Z Eleventy:TemplateWriter Found: [ './README.md', './about.html', './impressum.html', './index.html' ]
+9:38:54 PM: 2019-07-07T19:38:54.396Z Eleventy:TemplatePassthroughManager TemplatePassthrough copy started.
+9:38:54 PM: 2019-07-07T19:38:54.396Z Eleventy:TemplatePassthroughManager `passthroughFileCopy` config paths: { css: true, 'favicons/.': true, img: true, js: true }
+9:38:54 PM: 2019-07-07T19:38:54.396Z Eleventy:TemplatePassthroughManager `passthroughFileCopy` config normalized paths: [ './css', './favicons/.', './img', './js' ]
+9:38:54 PM: 2019-07-07T19:38:54.396Z Eleventy:TemplatePassthrough Copying './css'
+9:38:54 PM: 2019-07-07T19:38:54.397Z Eleventy:TemplatePassthrough Copying './favicons/.'
+9:38:54 PM: 2019-07-07T19:38:54.397Z Eleventy:TemplatePassthrough Copying './img'
+9:38:54 PM: 2019-07-07T19:38:54.397Z Eleventy:TemplatePassthrough Copying './js'
+9:38:54 PM: 2019-07-07T19:38:54.398Z Dev:Eleventy:Template new Template('./README.md')
+9:38:54 PM: 2019-07-07T19:38:54.399Z Dev:Eleventy:Template './README.md' getMapped()
+9:38:54 PM: 2019-07-07T19:38:54.399Z Dev:Eleventy:Template './README.md' getData()
+9:38:54 PM: 2019-07-07T19:38:54.400Z Dev:Eleventy:TemplateData getLocalDataPaths('./README.md')
+9:38:54 PM: 2019-07-07T19:38:54.400Z Dev:Eleventy:TemplateData parsed.dir: '.'
+9:38:54 PM: 2019-07-07T19:38:54.400Z Eleventy:TemplateData Using '.11tydata' to find data files.
+9:38:54 PM: 2019-07-07T19:38:54.400Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+9:38:54 PM: 2019-07-07T19:38:54.400Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+9:38:54 PM: 2019-07-07T19:38:54.400Z Eleventy:TemplateData getLocalDataPaths('./README.md'): [ './README.11tydata.js', './README.11tydata.json', './README.json' ]
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:Template new Template('./about.html')
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:Template './about.html' getMapped()
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:Template './about.html' getData()
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:TemplateData getLocalDataPaths('./about.html')
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:TemplateData parsed.dir: '.'
+9:38:54 PM: 2019-07-07T19:38:54.401Z Eleventy:TemplateData Using '.11tydata' to find data files.
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+9:38:54 PM: 2019-07-07T19:38:54.401Z Eleventy:TemplateData getLocalDataPaths('./about.html'): [ './about.11tydata.js', './about.11tydata.json', './about.json' ]
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:Template new Template('./impressum.html')
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:Template './impressum.html' getMapped()
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:Template './impressum.html' getData()
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:TemplateData getLocalDataPaths('./impressum.html')
+9:38:54 PM: 2019-07-07T19:38:54.401Z Dev:Eleventy:TemplateData parsed.dir: '.'
+9:38:54 PM: 2019-07-07T19:38:54.402Z Eleventy:TemplateData Using '.11tydata' to find data files.
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+9:38:54 PM: 2019-07-07T19:38:54.402Z Eleventy:TemplateData getLocalDataPaths('./impressum.html'): [ './impressum.11tydata.js', './impressum.11tydata.json', './impressum.json' ]
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:Template new Template('./index.html')
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:Template './index.html' getMapped()
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:Template './index.html' getData()
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:TemplateData getLocalDataPaths('./index.html')
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:TemplateData parsed.dir: '.'
+9:38:54 PM: 2019-07-07T19:38:54.402Z Eleventy:TemplateData Using '.11tydata' to find data files.
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:TemplateData allDirs: [ '.' ]
+9:38:54 PM: 2019-07-07T19:38:54.402Z Dev:Eleventy:TemplateData dirStr: '.'; inputDir: './'
+9:38:54 PM: 2019-07-07T19:38:54.402Z Eleventy:TemplateData getLocalDataPaths('./index.html'): [ './index.11tydata.js', './index.11tydata.json', './index.json' ]
+9:38:54 PM: 2019-07-07T19:38:54.405Z Dev:Eleventy:Template './README.md' getData() getLocalData
+9:38:54 PM: 2019-07-07T19:38:54.442Z Dev:Eleventy:Template './about.html' getData() getLocalData
+9:38:54 PM: 2019-07-07T19:38:54.443Z Dev:Eleventy:Template './impressum.html' getData() getLocalData
+9:38:54 PM: 2019-07-07T19:38:54.444Z Dev:Eleventy:Template './index.html' getData() getLocalData
+9:38:54 PM: 2019-07-07T19:38:54.487Z Dev:Eleventy:TemplateLayout Found 'base' in TemplateCache
+9:38:54 PM: 2019-07-07T19:38:54.488Z Dev:Eleventy:TemplateLayout Found 'base' in TemplateCache
+9:38:54 PM: 2019-07-07T19:38:54.490Z Eleventy:Template getMappedDate: using file created time for './README.md' of 2019-07-07T19:38:33.629Z (from 1562528313629.7441)
+9:38:54 PM: 2019-07-07T19:38:54.490Z Dev:Eleventy:Template './README.md' getData() mergedData
+9:38:54 PM: 2019-07-07T19:38:54.490Z Eleventy:TemplateWriter ./README.md added to map.
+9:38:54 PM: 2019-07-07T19:38:54.495Z Dev:Eleventy:Template './about.html' getData() get merged layout chain front matter
+9:38:54 PM: 2019-07-07T19:38:54.496Z Dev:Eleventy:Template './impressum.html' getData() get merged layout chain front matter
+9:38:54 PM: 2019-07-07T19:38:54.496Z Dev:Eleventy:Template './index.html' getData() get merged layout chain front matter
+9:38:54 PM: 2019-07-07T19:38:54.498Z Eleventy:Template getMappedDate: using file created time for './about.html' of 2019-07-07T19:38:33.629Z (from 1562528313629.7441)
+9:38:54 PM: 2019-07-07T19:38:54.498Z Dev:Eleventy:Template './about.html' getData() mergedData
+9:38:54 PM: 2019-07-07T19:38:54.498Z Eleventy:TemplateWriter ./about.html added to map.
+9:38:54 PM: 2019-07-07T19:38:54.498Z Eleventy:Template getMappedDate: using file created time for './impressum.html' of 2019-07-07T19:38:33.629Z (from 1562528313629.7441)
+9:38:54 PM: 2019-07-07T19:38:54.498Z Dev:Eleventy:Template './impressum.html' getData() mergedData
+9:38:54 PM: 2019-07-07T19:38:54.498Z Eleventy:TemplateWriter ./impressum.html added to map.
+9:38:54 PM: 2019-07-07T19:38:54.498Z Eleventy:Template getMappedDate: using file created time for './index.html' of 2019-07-07T19:38:33.629Z (from 1562528313629.7441)
+9:38:54 PM: 2019-07-07T19:38:54.498Z Dev:Eleventy:Template './index.html' getData() mergedData
+9:38:54 PM: 2019-07-07T19:38:54.498Z Eleventy:TemplateWriter ./index.html added to map.
+9:38:54 PM: 2019-07-07T19:38:54.498Z Eleventy:TemplateMap Caching collections objects.
+9:38:54 PM: 2019-07-07T19:38:54.501Z Eleventy:TemplateMap Collection: collections.all size: 4
+9:38:54 PM: 2019-07-07T19:38:54.502Z Eleventy:TemplateMap Collection: collections.all size: 4
+9:38:54 PM: 2019-07-07T19:38:54.503Z Dev:Eleventy:Template './README.md' render()
+9:38:54 PM: 2019-07-07T19:38:54.503Z Dev:Eleventy:Template Template.render renderContent for './README.md'
+9:38:54 PM: 2019-07-07T19:38:54.503Z Dev:Eleventy:TemplateContent './README.md' compile() using engine: 'md'
+9:38:54 PM: 2019-07-07T19:38:54.524Z Dev:Eleventy:TemplateContent './README.md' getCompiledTemplate function created
+9:38:54 PM: 2019-07-07T19:38:54.534Z Dev:Eleventy:TemplateContent './README.md' getCompiledTemplate called, rendered content created
+9:38:54 PM: 2019-07-07T19:38:54.534Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+9:38:54 PM: 2019-07-07T19:38:54.534Z Dev:Eleventy:Template './about.html' render()
+9:38:54 PM: 2019-07-07T19:38:54.534Z Dev:Eleventy:Template Template.render is bypassing layouts for './about.html'.
+9:38:54 PM: 2019-07-07T19:38:54.534Z Dev:Eleventy:Template Template.render renderContent for './about.html'
+9:38:54 PM: 2019-07-07T19:38:54.534Z Dev:Eleventy:TemplateContent './about.html' compile() using engine: 'html'
+9:38:54 PM: 2019-07-07T19:38:54.535Z Dev:Eleventy:TemplateContent './about.html' getCompiledTemplate function created
+9:38:54 PM: 2019-07-07T19:38:54.535Z Dev:Eleventy:TemplateContent './about.html' getCompiledTemplate called, rendered content created
+9:38:54 PM: 2019-07-07T19:38:54.536Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+9:38:54 PM: 2019-07-07T19:38:54.536Z Dev:Eleventy:Template './impressum.html' render()
+9:38:54 PM: 2019-07-07T19:38:54.536Z Dev:Eleventy:Template Template.render is bypassing layouts for './impressum.html'.
+9:38:54 PM: 2019-07-07T19:38:54.536Z Dev:Eleventy:Template Template.render renderContent for './impressum.html'
+9:38:54 PM: 2019-07-07T19:38:54.536Z Dev:Eleventy:TemplateContent './impressum.html' compile() using engine: 'html'
+9:38:54 PM: 2019-07-07T19:38:54.536Z Dev:Eleventy:TemplateContent './impressum.html' getCompiledTemplate function created
+9:38:54 PM: 2019-07-07T19:38:54.536Z Dev:Eleventy:TemplateContent './impressum.html' getCompiledTemplate called, rendered content created
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:Template './index.html' render()
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:Template Template.render is bypassing layouts for './index.html'.
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:Template Template.render renderContent for './index.html'
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:TemplateContent './index.html' compile() using engine: 'html'
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:TemplateContent './index.html' getCompiledTemplate function created
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:TemplateContent './index.html' getCompiledTemplate called, rendered content created
+9:38:54 PM: 2019-07-07T19:38:54.537Z Dev:Eleventy:TemplateMap Added this.map[...].templateContent, outputPath, et al for one map entry
+9:38:54 PM: 2019-07-07T19:38:54.538Z Dev:Eleventy:TemplateWriter TemplateMap cache complete.
+9:38:54 PM: 2019-07-07T19:38:54.538Z Eleventy:TemplateWriter Template map created.
+9:38:54 PM: 2019-07-07T19:38:54.538Z Dev:Eleventy:TemplateLayout Found 'base' in TemplateCache
+9:38:54 PM: 2019-07-07T19:38:54.539Z Dev:Eleventy:TemplateLayout Found 'base' in TemplateCache
+9:38:54 PM: 2019-07-07T19:38:54.539Z Dev:Eleventy:TemplateLayout Found 'base' in TemplateCache
+9:38:54 PM: 2019-07-07T19:38:54.539Z Eleventy:Template Writing '_site/README/index.html' from './README.md'.
+9:38:54 PM: 2019-07-07T19:38:54.540Z Dev:Eleventy:TemplateContent '_includes/base.njk' compile() using engine: 'njk'
+9:38:54 PM: 2019-07-07T19:38:54.541Z Dev:Eleventy:TemplateContent '_includes/base.njk' compile() using engine: 'njk'
+9:38:54 PM: 2019-07-07T19:38:54.541Z Dev:Eleventy:TemplateContent '_includes/base.njk' compile() using engine: 'njk'
+9:38:54 PM: 2019-07-07T19:38:54.541Z Dev:Eleventy:TemplateContent '_includes/base.njk' getCompiledTemplate function created
+9:38:54 PM: 2019-07-07T19:38:54.541Z Dev:Eleventy:TemplateContent '_includes/base.njk' getCompiledTemplate function created
+9:38:54 PM: 2019-07-07T19:38:54.541Z Dev:Eleventy:TemplateContent '_includes/base.njk' getCompiledTemplate function created
+9:38:54 PM: 2019-07-07T19:38:54.556Z Eleventy:Template Writing '_site/about/index.html' from './about.html'.
+9:38:54 PM: 2019-07-07T19:38:54.556Z Eleventy:Template Writing '_site/impressum/index.html' from './impressum.html'.
+9:38:54 PM: 2019-07-07T19:38:54.556Z Eleventy:Template Writing '_site/index.html' from './index.html'.
+9:38:54 PM: 2019-07-07T19:38:54.556Z Eleventy:TemplatePassthroughManager Copied './css'
+9:38:54 PM: 2019-07-07T19:38:54.559Z Eleventy:TemplatePassthroughManager Copied './js'
+9:38:54 PM: 2019-07-07T19:38:54.561Z Eleventy:Template _site/index.html written..
+9:38:54 PM: 2019-07-07T19:38:54.561Z Eleventy:TemplatePassthroughManager Copied './favicons/.'
+9:38:54 PM: 2019-07-07T19:38:54.561Z Eleventy:Template _site/README/index.html written..
+9:38:54 PM: 2019-07-07T19:38:54.561Z Eleventy:Template _site/impressum/index.html written..
+9:38:54 PM: 2019-07-07T19:38:54.561Z Eleventy:Template _site/about/index.html written..
+9:38:54 PM: 2019-07-07T19:38:54.562Z Eleventy:TemplatePassthroughManager Copied './img'
+9:38:54 PM: 2019-07-07T19:38:54.562Z Eleventy:TemplatePassthroughManager TemplatePassthrough copy finished. Current count: 4
+9:38:54 PM: Copied 4 items and Processed 4 files in 0.23 seconds
+9:38:54 PM: 2019-07-07T19:38:54.563Z Eleventy Finished writing templates.
+9:38:54 PM: 2019-07-07T19:38:54.563Z Eleventy
+9:38:54 PM: Getting frustrated? Have a suggestion/feature request/feedback?
+9:38:54 PM: I want to hear it! Open an issue: https://github.com/11ty/eleventy/issues/new
+9:38:54 PM: Start time: (2019-07-07 19:38:53 UTC) [treshold=1%]
+9:38:54 PM:  #  module                           time  %
+9:38:54 PM:  1  fs-extra (node...lib/index.js)   25ms  ▇ 3%
+9:38:57 PM: Starting post processing
+9:38:54 PM:  2  ./TemplatePath...platePath.js)   30ms  ▇ 3%
+9:38:54 PM:  3  base (node_mod...ase/index.js)   21ms  ▇ 2%
+9:38:54 PM:  4  ./utils (node_...lib/utils.js)   11ms  ▇ 1%
+9:38:54 PM:  5  ./lib/compiler.../compiler.js)   14ms  ▇ 1%
+9:38:54 PM:  6  snapdragon (no...gon/index.js)   39ms  ▇▇ 4%
+9:38:54 PM:  7  ./lib/braces (...ib/braces.js)   39ms  ▇▇ 4%
+9:38:54 PM:  8  braces (node_m...ces/index.js)   61ms  ▇▇ 6%
+9:38:54 PM:  9  extglob (node_...lob/index.js)   12ms  ▇ 1%
+9:38:54 PM: 10  ./lib/compiler...compilers.js)   19ms  ▇ 2%
+9:38:54 PM: 11  micromatch (no...tch/index.js)   83ms  ▇▇▇ 8%
+9:38:54 PM: 12  ../utils/patte...s/pattern.js)   85ms  ▇▇▇ 9%
+9:38:54 PM: 13  ./managers/tas...ers/tasks.js)   85ms  ▇▇▇ 9%
+9:38:54 PM: 14  ./out/index (n...out/index.js)   98ms  ▇▇▇ 10%
+9:38:54 PM: 15  fast-glob (nod...lob/index.js)   98ms  ▇▇▇ 10%
+9:38:54 PM: 16  ./_memoizeCapp...izeCapped.js)   10ms  ▇ 1%
+9:38:54 PM: 17  ./_stringToPat...ingToPath.js)   10ms  ▇ 1%
+9:38:54 PM: 18  ./_castPath (n..._castPath.js)   13ms  ▇ 1%
+9:38:54 PM: 19  ./_baseSet (no.../_baseSet.js)   19ms  ▇ 2%
+9:38:54 PM: 20  lodash/set (no...odash/set.js)   20ms  ▇ 2%
+9:38:54 PM: 21  ./_baseMergeDe...MergeDeep.js)   12ms  ▇ 1%
+9:38:54 PM: 22  ./_baseMerge (...baseMerge.js)   14ms  ▇ 1%
+9:38:54 PM: 23  lodash/merge (...ash/merge.js)   18ms  ▇ 2%
+9:38:54 PM: 24  @babel/parser...lib/index.js)    21ms  ▇ 2%
+9:38:54 PM: 25  node-source-wa...alk/index.js)   22ms  ▇ 2%
+9:38:54 PM: 26  module-definit...ion/index.js)   23ms  ▇ 2%
+9:38:54 PM: 27  detective-amd...amd/index.js)    11ms  ▇ 1%
+9:38:54 PM: 28  gonzales-pe (n.../gonzales.js)   45ms  ▇▇ 5%
+9:38:54 PM: 29  detective-less...ess/index.js)   45ms  ▇▇ 5%
+9:38:54 PM: 30  ./terminal-hig...highlight.js)   10ms  ▇ 1%
+9:38:54 PM: 31  ./css-syntax-e...tax-error.js)   12ms  ▇ 1%
+9:38:54 PM: 32  ./node (node_m.../lib/node.js)   15ms  ▇ 2%
+9:38:54 PM: 33  ./declaration...claration.js)    16ms  ▇ 2%
+9:38:54 PM: 34  ./parser (node...ib/parser.js)   11ms  ▇ 1%
+9:38:54 PM: 35  ./parse (node_...lib/parse.js)   12ms  ▇ 1%
+9:38:54 PM: 36  ./lazy-result...zy-result.js)    15ms  ▇ 2%
+9:38:57 PM: Post processing done
+9:38:54 PM: 37  ./processor (n...processor.js)   15ms  ▇ 2%
+9:38:54 PM: 38  postcss (node_...b/postcss.js)   32ms  ▇ 3%
+9:38:54 PM: 39  detective-post...ist/index.js)   42ms  ▇▇ 4%
+9:38:54 PM: 40  typescript (no...ypescript.js)  295ms  ▇▇▇▇▇▇▇▇▇ 30%
+9:38:54 PM: 41  typescript-esl...er/parser.js)  306ms  ▇▇▇▇▇▇▇▇▇▇ 31%
+9:38:54 PM: 42  detective-type...ipt/index.js)  307ms  ▇▇▇▇▇▇▇▇▇▇ 31%
+9:38:54 PM: 43  precinct (node...nct/index.js)  431ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 44%
+9:38:54 PM: 44  dependency-tre...ree/index.js)  436ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 44%
+9:38:54 PM: 45  ./UserConfig (...serConfig.js)   13ms  ▇ 1%
+9:38:54 PM: 46  ./EleventyConf...ntyConfig.js)   15ms  ▇ 2%
+9:38:54 PM: 47  ./TemplateConf...ateConfig.js)  470ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 48%
+9:38:54 PM: 48  ./Config (node...rc/Config.js)  482ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+9:38:58 PM: Site is live
+9:38:54 PM: 49  ../EleventyExt...ensionMap.js)  483ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+9:38:54 PM: 50  ./Engines/Temp...ateEngine.js)  484ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+9:38:54 PM: 51  ./TemplateRend...ateRender.js)  484ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+9:38:54 PM: 52  ./TemplateData...plateData.js)  611ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 62%
+9:38:54 PM: 53  esprima (node_...t/esprima.js)   30ms  ▇ 3%
+9:38:54 PM: 54  ../type/js/fun.../function.js)   31ms  ▇ 3%
+9:38:54 PM: 55  ./schema/defau...ault_full.js)   32ms  ▇ 3%
+9:38:54 PM: 56  ./js-yaml/load...ml/loader.js)   44ms  ▇▇ 4%
+9:38:54 PM: 57  ./lib/js-yaml....b/js-yaml.js)   48ms  ▇▇ 5%
+9:38:54 PM: 58  js-yaml (node_...aml/index.js)   49ms  ▇▇ 5%
+9:38:54 PM: 59  ./engines (nod...b/engines.js)   49ms  ▇▇ 5%
+9:38:54 PM: 60  ./lib/defaults.../defaults.js)   50ms  ▇▇ 5%
+9:38:54 PM: 61  gray-matter (n...ter/index.js)   54ms  ▇▇ 5%
+9:38:54 PM: 62  ./TemplateCont...teContent.js)   58ms  ▇▇ 6%
+9:38:54 PM: 63  ./Template (no.../Template.js)   65ms  ▇▇ 7%
+9:38:54 PM: 64  globby (node_m...bby/index.js)   10ms  ▇ 1%
+9:38:54 PM: 65  del (node_modu...del/index.js)   13ms  ▇ 1%
+9:38:54 PM: 66  ./lib/copy (no.../lib/copy.js)   19ms  ▇ 2%
+9:38:54 PM: 67  recursive-copy...opy/index.js)   20ms  ▇ 2%
+9:38:54 PM: 68  ./TemplatePass...ssthrough.js)   20ms  ▇ 2%
+9:38:54 PM: 69  ./TemplatePass...ghManager.js)   20ms  ▇ 2%
+9:38:54 PM: 70  ./EleventyFile...entyFiles.js)   21ms  ▇ 2%
+9:38:54 PM: 71  ./TemplateWrit...ateWriter.js)   95ms  ▇▇▇ 10%
+9:38:54 PM: 72  ./src/Eleventy.../Eleventy.js)  740ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 75%
+9:38:54 PM: 73  ./lib/ (node_m...lib/index.js)   30ms  ▇ 3%
+9:38:54 PM: 74  markdown-it (n...-it/index.js)   30ms  ▇ 3%
+9:38:54 PM: 75  ./Markdown (no.../Markdown.js)   31ms  ▇ 3%
+9:38:54 PM: 76  ./compiler (no.../compiler.js)   10ms  ▇ 1%
+9:38:54 PM: 77  ./node-loaders...e-loaders.js)   10ms  ▇ 1%
+9:38:54 PM: 78  ./loaders (nod...c/loaders.js)   10ms  ▇ 1%
+9:38:54 PM: 79  ./src/environm...vironment.js)   24ms  ▇ 2%
+9:38:54 PM: 80  nunjucks (node...cks/index.js)   27ms  ▇ 3%
+9:38:54 PM: 81  ./Nunjucks (no.../Nunjucks.js)   28ms  ▇ 3%
+9:38:54 PM: 82  ./Liquid (node...es/Liquid.js)   14ms  ▇ 1%
+9:38:54 PM: Total require(): 1521
+9:38:54 PM: Total time: 985ms
+9:38:54 PM: Skipping functions preparation step: no functions directory set
+9:38:54 PM: Caching artifacts
+9:38:54 PM: Started saving node modules
+9:38:54 PM: Finished saving node modules
+9:38:54 PM: Started saving pip cache
+9:38:54 PM: Finished saving pip cache
+9:38:54 PM: Started saving emacs cask dependencies
+9:38:54 PM: Finished saving emacs cask dependencies
+9:38:54 PM: Started saving maven dependencies
+9:38:54 PM: Finished saving maven dependencies
+9:38:54 PM: Started saving boot dependencies
+9:38:54 PM: Finished saving boot dependencies
+9:38:54 PM: Started saving go dependencies
+9:38:56 PM: Finished saving go dependencies
+9:38:56 PM: Build script success
+9:38:56 PM: Starting to deploy site from '_site'
+9:38:56 PM: Creating deploy tree 
+9:38:56 PM: 15 new files to upload
+9:38:56 PM: 0 new functions to upload
+9:39:36 PM: Finished processing build request in 1m12.58922907s

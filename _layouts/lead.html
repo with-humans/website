@@ -1,0 +1,53 @@
+---
+layout: base
+---
+<style>
+button.cta-button {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 10px auto;
+  background: black;
+  color: white;
+  display: block;
+}
+
+.lead-content .row {
+  min-height: 350px;
+  padding: 15px;
+  font-size: 1.4em;
+}
+
+.inset {
+  background: #002742;
+}
+.inset:last-child {
+-webkit-box-shadow: inset 20px 0px 20px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 20px 0px 20px -10px rgba(0,0,0,0.75);
+box-shadow: inset 20px 0px 20px -10px rgba(0,0,0,0.75);
+}
+.inset:first-child {
+-webkit-box-shadow: inset -20px 0px 20px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -20px 0px 20px -10px rgba(0,0,0,0.75);
+box-shadow: inset -20px 0px 20px -10px rgba(0,0,0,0.75);
+}
+
+</style>
+<div class="container py-6">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h1 class="display-4 mb-4">{{ leader }}</h1>
+            <hr class="border-1 border-light my-4 ml-0 text-left w-15" role="presentation">
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-black text-white border-1 border-light lead-content">
+    <div class="container py-2">
+        <div class="bg-black mt-n6 px-3 px-lg-0">
+            {{ content | safe }}
+        </div>
+    </div>
+</div>
+
+
