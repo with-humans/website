@@ -1,10 +1,30 @@
 //@import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
+.picture-head {
+  position: relative;
+  padding-top: 30vh;
+  padding-bottom: 15vh;
+  @include media-breakpoint-down(md) {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .picture {
+    z-index: -1000;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-size: cover;
+    background-position: center;
+
+    filter: grayscale(100%) contrast(120%) brightness(30%);
+  }
+}
+
 .video-head {
   padding-top: 30vh;
   padding-bottom: 15vh;
   @include media-breakpoint-down(md) {
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
   }
   position: relative;
