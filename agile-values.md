@@ -1,7 +1,7 @@
 ---
 layout: page
+title: How working with us looks like
 ---
-## How working with us looks like
 
 Our industry has seen a plethora of collaboration models, engineering practices and values despite its relative young
 age.
