@@ -21,9 +21,15 @@ layout: base
     <div class="container py-2">
         <div class="bg-white mt-n6 px-3 px-lg-0">
             <div class="row justify-content-center py-4 py-lg-5">
-                <div class="col-md-10 col-lg-8">
-                  {{ content }}
-                </div>
+                {% if page.full-width != true %}
+                  <div class="col-md-10 col-lg-8">
+                    {{ content }}
+                  </div>
+                {% else %}
+                  <div class="px-3">
+                    {{ content }}
+                  </div>
+                {% endif %}
             </div>
         </div>
     </div>
