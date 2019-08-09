@@ -63,16 +63,12 @@ full-width: true
   </div>
 </div>
 <script type="text/javascript">
-  (() => {
-    return;
-    const workers = Array.prototype.slice.apply(document.querySelectorAll(".workers > div"));
-    const shuffledWorkers = [];
+  (function() {
+    var workersContainer = document.getElementsByClassName("workers")[0];
+    var workers = Array.prototype.slice.apply(workersContainer.children);
     while(workers.length) {
-      const aWorker = workers.splice(Math.random()*workers.length | 0, 1)[0];
-      shuffledWorkers.push(aWorker);
+      var aWorker = workers.splice(Math.random()*workers.length | 0, 1)[0];
+      workersContainer.appendChild(aWorker);
     }
-    document.querySelector(".workers").innerHTML = "";
-    console.log(shuffledWorkers);
-    shuffledWorkers.forEach(worker => document.querySelector(".workers").appendChild(worker));
   })();
 </script>
