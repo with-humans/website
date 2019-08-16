@@ -6,6 +6,12 @@
     font-size: 1.2em;
   }
 
+  .claim-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .materialbox {
     font-weight: bold;
     text-align: center;
