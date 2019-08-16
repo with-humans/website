@@ -1,28 +1,40 @@
 ---
-layout: lead
+layout: base
 leader: "Build"
 ---
-<div class="container">
-  <div class="row py-5">
-    <div class="col-md-4"><code style="height: 250px; overflow-y: hidden; display: block; font-size: 0.3em" id="build-log"></code></div>
-    <div class="col-md-8">
-      with us, you ship features hourly, not weekly
-      <button class="cta-button">DevOps</button>
+<div class="head code-head">
+  <div class="code-container">
+    <code id="build-log"></code>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h1 class="display-4 mb-4">Build software with humans</h1>
+        <hr class="border-1 border-light my-4 ml-0 text-left w-15" role="presentation">
+        <p class="lead text-secondary">Well tested, continuously delivered</p>
+      </div>
     </div>
   </div>
+</div>
 
-  <div class="row py-5">
-    <div class="col-md-8">
-      with us, you deploy every day, even on Fridays, not because you're adventurous, but because we're confident in what we ship
-      <button class="cta-button">Test Automation</button>
-    </div>
-    <div class="col-md-4"><video autoplay style="max-width: 100%" loop src="/img/tgif.mp4"></video></div>
-  </div>
-  <div class="row py-5">
-    <div class="col-md-4"><video style="max-width: 100%" src="/img/skateboard.mp4" loop autoplay></video></div>
-    <div class="col-md-8">
-      With us, tech becomes an enabler for innovation, not the bottleneck of your Product Engineering
-      <button class="cta-button">Product Management</button>
+<div class="container py-2">
+  <div class="bg-white mt-n6 px-lg-0">
+    <div class="px-5 py-5">
+      <div>
+        <p>As long as it has a testing framework, we'll be fine. No really. Throughout our careers, we've worked in a plethora of different programming languages.</p>
+        <p>We do have our preferences, but they always depend on the requirements and the context we're working in.</p>
+        <p>What you'll find though, is that we deploy hourly, not weekly. Even on Fridays, because we're confident in what we're shipping.</p>
+        <p>We also always strive to cut a feature so we deliver value as soon as possible.</p>
+      </div>
+      <div>
+        <p class="text-center d-block">
+          <img alt="Logo of Ruby" style="height: 100px" src="{% link img/build/ruby-logo.svg %}"/>
+          <img alt="Logo of Scala" style="height: 100px" src="{% link img/build/scala-logo.svg %}"/>
+          <img alt="Logo of JavaScript" style="height: 100px" src="{% link img/build/javascript-logo.svg %}"/>
+          <img alt="Logo of Clojure" style="height: 100px" src="{% link img/build/clojure-logo.svg %}"/>
+          <img alt="Logo of React" style="height: 100px" src="{% link img/build/react-logo.svg %}"/>
+        </p>
+      </div>
     </div>
   </div>
 </div>
@@ -36,9 +48,10 @@ leader: "Build"
     const nextLine = function() {
       const line = lines.shift();
       if(typeof line === 'undefined') return;
+      //logElem.scrollTop = logElem.scrollHeight;
+      logElem.scrollTo({top: logElem.scrollHeight});
       logElem.innerText += "\n"+line;
-      logElem.scrollTop = logElem.scrollHeight;
-      setTimeout(nextLine, 100*Math.random());
+      setTimeout(nextLine, 150*Math.random());
     }
     nextLine();
   });

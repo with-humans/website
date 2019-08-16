@@ -1,0 +1,8 @@
+.graytocolor {
+  filter: saturate(0%);
+  transition-property: filter;
+  transition-duration: 500ms;
+  &:hover {
+    filter: saturate(100%);
+  }
+}
