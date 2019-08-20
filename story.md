@@ -5,18 +5,17 @@ title: |
 ---
 
 We, that is [Raimo, Chris and Benjamin](/humans), first met each other at a conference. SoCraTes to be exact. We learned
-from each other and learned about each other, kept in touch through our involvement in the software crafting community
+from and about each other and kept in touch through our involvement in the software crafting community
 and latest by meeting again at the yearly SoCraTes.
 
 <figure>
   <img src="/img/people.jpg" class="mx-auto d-block col-6" alt="Three figures, standing side-by-side">
 </figure>
 
-When we later had the chance to work together on a project, we took it. It was there that we found out, we not only
-enjoyed working together, and that we worked together well, but that we shared not only lots of values around technical
-topics, but that we also had similar views on the people-side of how tech products should be built.
+Soon enough, we got the chance to work together on a project, and we took it. It was there that we found out that we not only
+enjoyed working together and that we worked together well, but most importantly that we also had similar views on the people-side of how tech products should be built.
 
-Fundamentally, it was clear to us, that people should *always* be front and center, when working together.
+Fundamentally, it was clear to us, that people should *always* be front and center, when working together and all our practices should contribute to that end.
 
 So, after each going their own ways, we got together again in 2018.
 
