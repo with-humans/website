@@ -2,6 +2,7 @@
 layout: page
 title: |
   Our Story <img src="/img/logo64x64.png" role="presentation" />
+permalink: /story
 ---
 
 We, that is [Raimo, Chris and Benjamin](/humans), first met each other at a conference. SoCraTes to be exact. We learned

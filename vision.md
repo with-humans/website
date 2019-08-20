@@ -3,6 +3,7 @@ layout: page
 title: |
   Our Vision <img src="/img/logo64x64.png" role="presentation" />
 secondary: We're a collective of people in tech, <br/>who put humans first. Always!
+permalink: /vision
 ---
 
 Our vision is to bring empowered, mindful, empathetic and effective team-cultures to tech-teams all over the world.

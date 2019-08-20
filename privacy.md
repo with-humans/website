@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 secondary: for with-humans.org
+permalink: /privacy
 ---
 
 _Deutsche Übersetzung der Datenschutzbestimmungen [weiter unten](#german)_
