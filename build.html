@@ -20,20 +20,67 @@ leader: "Build"
 <div class="container py-2">
   <div class="bg-white mt-n6 px-lg-0">
     <div class="px-5 py-5">
-      <div>
+      <div class="row">
         <p>As long as it has a testing framework, we'll be fine. No really. Throughout our careers, we've worked in a plethora of different programming languages.</p>
         <p>We do have our preferences, but they always depend on the requirements and the context we're working in.</p>
-        <p>What you'll find though, is that we deploy hourly, not weekly. Even on Fridays, because we're confident in what we're shipping.</p>
-        <p>We also always strive to cut a feature so we deliver value as soon as possible.</p>
+        <p>What you'll find though, is that we deploy hourly, not weekly. Even on Fridays, because we're confident in what we're shipping. We also always strive to cut a feature so we deliver value as soon as possible.</p>
+        <p>If the tools work for you, they'll work for us. If you need help deciding, we've got some ideas:</p>
+      </div>
+          <h3>Languages &amp; Frameworks</h3>
+      <div class="row">
+        <div class="col-12 col-md-9 col-lg-11">
+          <p>This is just an excerpt of our collective work experience. We found our practices to be applicable in every language and every framework we worked with so far, and we're up to speed in a new language in no time</p>
+          <p>
+            <strong>On the JVM</strong>, we've deployed small microservices in Clojure using <em>Components</em>,
+            wrote our own event-sourced monolith in <em>Scala</em> and spent a
+            fair share of our time putting <em>Spring</em> applications written in <em>Java</em> and <em>Kotlin</em> under test.
+          </p>
+          <p>
+            <strong>In the browser window</strong>, we've written <a href="https://github.com/rradczewski/expect-redux/">testing libraries</a> for <em>redux</em>,
+build customer projects in <em>vanilla JS</em>,
+gave workshops and taught clients <em>React</em> and <em>KnockoutJS</em>
+and delivered toolsets and libraries written in <em>TypeScript</em>.
+          </p>
+          <p>
+            <strong>On servers and on your machine</strong>, we've developed desktop apps in <em>Qt/C++</em>,
+            webapps and backend services written in <em>Ruby</em>, <em>Python</em> and <em>NodeJS</em>,
+            and tied everything together using <em>Make</em>, <em>Bash</em>, <em>sed</em> and <em>awk</em> ;)
+          </p>
+        </div>
+        <div class="col-12 col-md-3 col-lg-1 order-first order-md-last">
+          <img alt="Logo of Java" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/java-logo.png %}"/>
+          <img alt="Logo of Kotlin" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/kotlin-logo.svg %}"/>
+          <img alt="Logo of PHP" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/php-logo.svg %}"/>
+          <img alt="Logo of C#" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/csharp-logo.svg %}"/>
+          <img alt="Logo of Python" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/python-logo.svg %}"/>
+          <img alt="Logo of Ruby" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/ruby-logo.svg %}"/>
+          <img alt="Logo of Scala" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/scala-logo.svg %}"/>
+          <img alt="Logo of JavaScript" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/javascript-logo.svg %}"/>
+          <img alt="Logo of Clojure" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/clojure-logo.svg %}"/>
+          <img alt="Logo of React" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/react-logo.svg %}"/>
+        </div>
+      </div>
+      <h3>Continuous Integration/Delivery</h3>
+      <div class="row">
+        <div class="col-12 col-md-9 col-lg-11">
+          <p>More importantly, we have extensive knowledge in putting the systems written in the languages above under test and know how to deliver them</p>
+          <p>
+            <strong>We make sure our software works</strong>, by setting up CI systems on <em>GitLab</em>, <em>Travis CI</em> and <em>GitHub</em>.
+            Our testing approaches are aligned with the testing pyramid, so expect plenty of unit tests, appropiate integration tests and extensive acceptance tests. There might be an occasional smoke test as well, as we don't want the canary birds to feel left out.
+          </p>
+          <p><strong>We delivered software</strong>, using <em>kubernetes</em>, <em>ansible</em> and <em>bash</em>. If there's a faster way to deliver it to you, we'll use that one. If the product doesn't need a backend, we'll deploy it to a CDN like <em>netlify</em> (like <a href="https://app.netlify.com/sites/with-humans/deploys">this page</a>).</p>
+        </div>
+        <div class="col-12 col-md-3 col-lg-1 order-first order-md-last">
+          <img alt="Logo of GitLab" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/gitlab-logo.svg %}"/>
+          <img alt="Logo of GitHub" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/github-logo.svg %}"/>
+          <img alt="Logo of Travis" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/travis-logo.png %}"/>
+          <img alt="Logo of CircleCI" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/circleci-logo.png %}"/>
+          <img alt="Logo of Kubernetes" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/k8s-logo.png %}"/>
+          <img alt="Logo of Docker" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/docker-logo.png %}"/>
+          <img alt="Logo of Ansible" style="margin: 4px; max-width: 32px;" class="img-fluid" src="{% link img/build/ansible-logo.svg %}"/>
+        </div>
       </div>
       <div>
-        <p class="text-center d-block">
-          <img alt="Logo of Ruby" style="height: 100px" src="{% link img/build/ruby-logo.svg %}"/>
-          <img alt="Logo of Scala" style="height: 100px" src="{% link img/build/scala-logo.svg %}"/>
-          <img alt="Logo of JavaScript" style="height: 100px" src="{% link img/build/javascript-logo.svg %}"/>
-          <img alt="Logo of Clojure" style="height: 100px" src="{% link img/build/clojure-logo.svg %}"/>
-          <img alt="Logo of React" style="height: 100px" src="{% link img/build/react-logo.svg %}"/>
-        </p>
       </div>
     </div>
   </div>
