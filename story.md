@@ -5,9 +5,9 @@ title: |
 permalink: /story
 ---
 
-We, that is [Raimo, Chris and Benjamin](/humans), first met each other at a conference. SoCraTes to be exact. We learned
-from and about each other and kept in touch through our involvement in the software crafting community
-and latest by meeting again at the yearly SoCraTes.
+We, that is [Raimo, Chris and Benjamin](/humans), first met each other at a conference.
+[SoCraTes](https://www.socrates-conference.de/) to be exact. We learned from and about each other and kept in touch
+through our involvement in the software crafting community and latest by meeting again at the yearly SoCraTes.
 
 <figure>
   <img src="/img/people.jpg" class="mx-auto d-block col-6" alt="Three figures, standing side-by-side">
