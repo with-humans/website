@@ -13,9 +13,14 @@ through our involvement in the software crafting community and latest by meeting
   <img src="/img/people.jpg" class="mx-auto d-block col-6" alt="Three figures, standing side-by-side">
 </figure>
 
-Soon enough, we got the chance to work together on a project, and we took it. It was there that we found out that we not only
-enjoyed working together and that we worked together well, but most importantly that we also had similar views on the people-side of how tech products should be built.
+Soon enough, we got the chance to work together on a project, and we took it. It was there that we found out that we not
+only enjoyed working together and that we worked together well, but most importantly that we also had similar views on
+the people-side of how tech products should be built.
 
-Fundamentally, it was clear to us, that people should *always* be front and center and all our endeavors and the practices we employ and teach should all contribute to that end.
+Fundamentally, it was clear to us, that people should *always* be front and center. All our endeavors and the practices
+we employ and teach should all be oriented towards this simple fact.
 
-After going our own ways for some time, we got back together in 2018 and schemed how our ideal workplace could look like and how the three of us could start making this a reality. We wanted to show the world that pairing technical excellence with a human-centric organisation that will always put its workers first can make a difference for the better. This is what became [with humans' vision](/vision).
+After going our own ways for some time, we got back together in 2018 and schemed how our ideal workplace would look like
+and how the three of us could start making it a reality. We wanted to show the world that pairing technical excellence
+with a human-centric organisation, an organisation that will always put its workers first, can make a difference for the
+better. This is what became [with humans' vision](/vision).
