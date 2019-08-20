@@ -16,11 +16,6 @@ and latest by meeting again at the yearly SoCraTes.
 Soon enough, we got the chance to work together on a project, and we took it. It was there that we found out that we not only
 enjoyed working together and that we worked together well, but most importantly that we also had similar views on the people-side of how tech products should be built.
 
-Fundamentally, it was clear to us, that people should *always* be front and center, when working together and all our practices should contribute to that end.
+Fundamentally, it was clear to us, that people should *always* be front and center and all our endeavors and the practices we employ and teach should all contribute to that end.
 
-So, after each going their own ways, we got together again in 2018.
-
-We shared the desire to work as a team again, and we shared the idea to show the world and teams around the world, that
-putting people first, and pairing a human-centric organisation with technical excellence, will make a difference for the
-better in people's lives.  
-Fundamentally, we shared what became [with humans' vision](/vision).
+After going our own ways for some time, we got back together in 2018 and schemed how our ideal workplace could look like and how the three of us could start making this a reality. We wanted to show the world that pairing technical excellence with a human-centric organisation that will always put its workers first can make a difference for the better. This is what became [with humans' vision](/vision).
