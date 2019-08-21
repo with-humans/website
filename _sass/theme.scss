@@ -2,8 +2,9 @@
 @import "custom/variables";
 
 // Bootstrap
+//@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./custom-bootstrap";
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
 $fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts";
 @import "../node_modules/font-awesome/scss/font-awesome.scss";
 
@@ -23,4 +24,3 @@ $fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts";
 @import "custom/navbar";
 @import "custom/pagination";
 @import "custom/utilities";
-@import "custom/zoom";
