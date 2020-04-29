@@ -8,6 +8,20 @@ layout: base
         <h3>We work, build and grow with humans.</h3>
       </div>
       <hr class="color-light mb-4"/>
-      <h2 class="text-center">Let's have coffee and start talking <br/><a href="mailto:hello@with-humans.org">hello@with-humans.org</a></h2>
+      <h2 class="text-center">Let's have coffee and start talking <br/><a href="mailto:hello@with-humans.org">hello@with-humans.org</a> 👋</h2>
+    </div>
+
+    <div class="container">
+      <div class="px-3 pt-5">
+        <h3>Latest activities</h3>
+        <ul class="d-block">
+        {% for activity in site.data.activities.activities %}
+          <li>
+            <p>{{ activity.date }} // {{ activity.author }} // <a href="{{ activity.url }}">{{ activity.type }} {{ activity.title }}</a></p>
+            <p>{{ activity.description }}</p>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
     </div>
 </div>

@@ -1,0 +1,22 @@
+authors:
+  - name: Benjamin
+    avatar: img/humans/benjamin.jpg
+  - name: Chris
+    avatar: img/humans/chris.jpg
+  - name: Raimo
+    avatar: img/humans/raimo.jpg
+
+activities:
+  - title: "cto.coffee - Episode 11: About Being a Generalist with April Matias"
+    author: Benjamin
+    url: https://cto.coffee/episodes/ep11-about-being-a-generalist-with-april-matias/
+    type: 🎧
+    description: "This episode I spoke with April Matias, a Senior Quality Assurance Engineer from Berlin. April has a background in arts and humanities, worked in quality assurance for several years and has recently taken a developer bootcamp to expand her knowledge and skills."
+    date: 2020-03-31
+
+  - title: "YMMV - From The Community Toolbox: SoCraTes Day Berlin"
+    author: Raimo
+    url: https://ymmv.craftswerk.io/2020/02/ftct-socrates-day-berlin
+    type: 📖
+    description: "Raimo spills the beans on how he organizes SoCraTes Day Berlin, which aspects he pays most attention to and explains why he is glad the event still only sells 50 tickets each year."
+    date: 2020-02-24
