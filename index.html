@@ -8,20 +8,28 @@ layout: base
         <h3>We work, build and grow with humans.</h3>
       </div>
       <hr class="color-light mb-4"/>
-      <h2 class="text-center">Let's have coffee and start talking <br/><a href="mailto:hello@with-humans.org">hello@with-humans.org</a> 👋</h2>
+      <h3 class="text-center">Let's have coffee and start talking <br/><a href="mailto:hello@with-humans.org">hello@with-humans.org</a> 👋</h2>
     </div>
 
-    <div class="container">
-      <div class="px-3 pt-5">
+    <div class="container px-6 pt-6">
+      <div class="row">
         <h3>Latest activities</h3>
-        <ul class="d-block">
-        {% for activity in site.data.activities.activities %}
-          <li>
-            <p>{{ activity.date }} // {{ activity.author }} // <a href="{{ activity.url }}">{{ activity.type }} {{ activity.title }}</a></p>
+      </div>
+      {% for activity in site.data.activities.activities %}
+      <div class="row pb-3">
+          <div class="col-3">
+            <p class="font-serif font-italic">{{ activity.date }}</p>
+            <div class="text-center">
+              <img class="w-50 rounded-circle fade-to-gray" src="{% link {{ site.data.activities.authors[activity.author].avatar }} %}">
+              <p class="font-weight-light">{{ activity.author }}</p>
+            </div>
+          </div>
+          <div class="col-9">
+            <p><a href="{{ activity.url }}">{{ activity.type }} {{ activity.title }}</a></p>
             <p>{{ activity.description }}</p>
-          </li>
-        {% endfor %}
-        </ul>
+          </div>
+        </div>
+      {% endfor %}
       </div>
     </div>
 </div>
