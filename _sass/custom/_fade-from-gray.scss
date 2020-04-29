@@ -1,0 +1,9 @@
+@media (hover: hover) and (pointer: fine) {
+  .fade-from-gray {
+    filter: grayscale(100%);
+    transition: filter 200ms;
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}
