@@ -69,6 +69,8 @@ ul {
 .blockquote {
     margin-left: 3rem;
     position: relative;
+    font-family: $font-family-serif;
+    font-style: italic;
 
     &::before {
         background-color: theme-color("primary");
