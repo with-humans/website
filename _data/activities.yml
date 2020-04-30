@@ -1,0 +1,57 @@
+authors:
+  Benjamin:
+    avatar: img/humans/benjamin-square.jpg
+  Chris:
+    avatar: img/humans/chris-square.jpg
+  Raimo:
+    avatar: img/humans/raimo-square.jpg
+
+activities:
+  - title: "cto.coffee - Episode 11: About Being a Generalist with April Matias"
+    author: Benjamin
+    url: https://cto.coffee/episodes/ep11-about-being-a-generalist-with-april-matias/
+    type: 🎧
+    description: "This episode I spoke with April Matias, a Senior Quality Assurance Engineer from Berlin. April has a background in arts and humanities, worked in quality assurance for several years and has recently taken a developer bootcamp to expand her knowledge and skills."
+    date: 2020-03-31
+
+  - title: "YMMV - From The Community Toolbox: SoCraTes Day Berlin"
+    author: Raimo
+    url: https://ymmv.craftswerk.io/2020/02/ftct-socrates-day-berlin
+    type: 📖
+    description: "Raimo spills the beans on how he organizes SoCraTes Day Berlin, which aspects he pays most attention to and explains why he is glad the event still only sells 50 tickets each year."
+    date: 2020-02-24
+
+  - title: "cto.coffee - Episode 10: Building Team Trust with Daniel Jilg"
+    author: Benjamin
+    url: https://cto.coffee/episodes/ep10-building-team-trust-with-daniel-jilg/
+    type: 🎧
+    description: "In this episode, I spoke with Daniel Jilg, a Freelance CTO and Developer. The main theme of our conversation was building team trust. Daniel shares his learnings and mistakes as a leader and CTO. We learn about his background of how he has grown from these learnings and used them to become a better leader."
+    date: 2020-02-24
+
+  - title: "cto.coffee - Episode 9: Being Intentional with Stephen Lewis"
+    author: Benjamin
+    url: https://cto.coffee/episodes/ep09-being-intentional-with-stephen-lewis/
+    type: 🎧
+    description: "In this episode, I spoke with Stephen Lewis, CTO at Palatinate Tech at the time of the recording. While we touch on a lot of topics, I think the main themes of our conversation are being intentional in your leadership, failing and the multiple benefits you get by building a trusted network of peers."
+    date: 2020-01-18
+
+  - title: "cto.coffee - Episode 8: Empathic Management with Alex Schladebeck"
+    author: Benjamin
+    url: https://cto.coffee/episodes/ep08-empathic-management-with-alex-schladebeck
+    type: 🎧
+    description: "In this episode, I spoke with Alex Schladebeck, CEO of BREDEX GmbH. We explored her working hypothesis of empathic management, which she shortly describes as “servant leadership with hearts”."
+    date: 2020-01-07
+
+  - title: "YMMV - Learning By Testing"
+    author: Raimo
+    url: https://ymmv.craftswerk.io/2019/03/learning-by-testing
+    type: 📖
+    description: "In my experience, testing is by far the most powerful, structured method to expand your knowledge about a language and its ecosystem. Not only does it provide you with guidance through the unknowns, but it also teaches you to carefully map between requirement and code, and to truly understand the task you’re trying to accomplish. In this article, I want to offer you my perspective on mentoring using test-driven development and to provide you with conversation starters for if you choose to try that approach with your mentee."
+    date: 2019-03-11
+
+  - title: "cto.coffee - Episode 6: “Symbolic & Observational Thinking” with Yulia Startsev"
+    author: Benjamin
+    url: https://cto.coffee/episodes/ep06-symbolic-observational-thinking-with-yulia-startsev
+    type: 🎧
+    description: "For this episode, I had the honour to sit with Yulia, who works on Firefox’s Developer Tools at Mozilla and is also Co-Chair of Ecma’s TC39 in 2019. We talk about symbolic and observational thinking, what it is, how it relates to software development and how it can shape the way we think about learning and teaching."
+    date: 2019-03-06
