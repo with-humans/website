@@ -27,6 +27,8 @@ exclude:
   - _scripts/
   - package.json
   - package-lock.json
+  - src/
+  - .cache/
   - README.md
   - run.sh
   - node_modules

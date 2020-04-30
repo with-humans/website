@@ -4,3 +4,5 @@ _site
 .gem
 node_modules
 .jekyll-cache
+.cache
+js/website.min.js*
