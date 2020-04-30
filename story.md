@@ -9,8 +9,8 @@ We, that is [Raimo, Chris and Benjamin](/humans), first met each other at a conf
 [SoCraTes](https://www.socrates-conference.de/) to be exact. We learned from and about each other and kept in touch
 through our involvement in the software crafting community and latest by meeting again at the yearly SoCraTes.
 
-<figure>
-  <img src="/img/people.jpg" class="mx-auto d-block col-6" alt="Three figures, standing side-by-side">
+<figure class="col-9 mx-auto d-block">
+  <img src="/img/people.jpg" class="materialbox" width="100%" alt="Three figures, standing side-by-side">
 </figure>
 
 Soon enough, we got the chance to work together on a project, and we took it. It was there that we found out that we not
