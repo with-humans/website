@@ -18,11 +18,11 @@ layout: base
       {% for activity in site.data.activities.activities %}
       <div class="row pb-3 px-md-6 px-3">
           <div class="col-md-3">
-            <p class="font-serif font-italic d-md-block d-inline">{{ activity.date }}</p>
+            <p class="d-md-block d-inline">{{ activity.date }}</p>
             <span class="d-md-none">-</span>
             <div class="d-inline-block d-md-block text-md-center">
               <img class="d-none d-md-inline w-50 rounded-circle fade-to-gray" src="{% link {{ site.data.activities.authors[activity.author].avatar }} %}">
-              <p class="font-weight-light">{{ activity.author }}</p>
+              <p class="font-weight-light small pt-1">{{ activity.author }}</p>
             </div>
           </div>
           <div class="col-md-9">
