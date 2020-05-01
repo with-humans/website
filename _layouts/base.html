@@ -8,8 +8,13 @@
     />
 
     <link
-      href="https://fonts.googleapis.com/css?family=Fira+Code%7CFira+Sans:300,400,400i,600"
+      href="//fonts.googleapis.com/css?family=Fira+Code%7CFira+Sans:300,400,400i,600"
       rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic"
+      rel="stylesheet"
+      type="text/css"
     />
     <link rel="stylesheet" href="/css/theme.min.css" />
     <title>with humans</title>
@@ -73,6 +78,34 @@
                 <a href="/what-is-w/humans" class="nav-link"
                   >What is w/humans?</a
                 >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="what-we-do-dropdown-menu-link"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  What we do
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="what-we-do-dropdown-menu-link"
+                >
+                  {% comment %}
+                  <!--<a class="dropdown-item" href="{% link agile-values.md %}">Agile</a>-->
+                  <!--<a class="dropdown-item" href="{% link work.html %}">Coach</a>-->
+                  <!--<a class="dropdown-item" href="{% link workshops.html %}">Workshops</a>-->
+                  {% endcomment %}
+                  <a class="dropdown-item" href="{% link remote.html %}"
+                    >Remote</a
+                  >
+                  <a class="dropdown-item" href="{% link build.html %}"
+                    >Build software</a
+                  >
+                </div>
               </li>
               <li class="nav-item dropdown">
                 <a
