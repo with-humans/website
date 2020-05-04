@@ -7,6 +7,13 @@ authors:
     avatar: img/humans/raimo-square.jpg
 
 activities:
+  - title: "cto.coffee - Episode 12: About Inclusive Events with Joanna and Beren"
+    author: Benjamin
+    url: https://cto.coffee/episodes/ep12-inclusive-events-with-joanna-and-beren/
+    type: 🎧
+    description: "In this episode I spoke with Joanna Moćko-Łazarewicz and Beren Van Daele, from Isle of IT, a human centric company rooted in the testing community in Europe and the organizers of the ITMatters conference series."
+    date: 2020-04-23
+
   - title: "cto.coffee - Episode 11: About Being a Generalist with April Matias"
     author: Benjamin
     url: https://cto.coffee/episodes/ep11-about-being-a-generalist-with-april-matias/
